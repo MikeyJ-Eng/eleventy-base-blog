@@ -6,4 +6,4 @@ eleventyNavigation:
 ---
 # About Me
 
-I am a person that writes things.
+We are Karen, Mike, and Tilly the dog.
