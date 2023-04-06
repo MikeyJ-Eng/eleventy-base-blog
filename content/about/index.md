@@ -6,4 +6,4 @@ eleventyNavigation:
 ---
 # About Me
 
-We are Karen, Mike, and Tilly the dog.
+We are Karen, Mike, and Tilly.
