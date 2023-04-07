@@ -15,14 +15,4 @@ Here is some text that will be replaced once I figure out what I want to write a
 
 This is under the section header
 
-```diff-js
- // this is a command
- function myCommand() {
-+  let counter = 0;
--  let counter = 1;
-   counter++;
- }
-
- // Test with a line break above this line.
- console.log('Test');
 ```
