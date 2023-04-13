@@ -6,4 +6,4 @@ eleventyNavigation:
 ---
 # About Me
 
-We are Karen, Mike, and Tilly.
+We are Mike and Karen.
