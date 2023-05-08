@@ -5,9 +5,6 @@ date: 2023-04-06
 tags:
   - another tag
 ---
-This is not a draft post - I removed the coding that stopped both the page and the from/to links from appearing!
-
-
 Today, I completed the task for my mandatory "Intro to JavaScript" lesson, as follows:
 
 1 We’ll make a program to calculate a tip
@@ -38,6 +35,50 @@ Please provide a link below to your Codepen with the tasks on. Also please add a
 
 ## Section Header
 
-This is under the section header
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+</head>
+
+<body>
+    <h1>Calculate bill cost</h1>
+    <button type="button" onclick="calculateTotalCost()">Calculate bill cost</button>
+
+    <!--Name your external files-->
+    <script src="Calculate a tip.js"></script>
+</body>
+
+</html>
+
+
+JAVASCRIPT:
+function calculateTotalCost() {
+        // Calculate a tip
+
+        /* Get required values from user */
+        var mealCost = Number(prompt("Enter meal price:"));
+
+        var tipPerc = Number(prompt("Enter the tip percentage:"));
+
+        var tipTotal = Number(tipPerc / 100 * mealCost);
+        var totalCost = mealCost + tipTotal;
+
+        totalCost = totalCost.toFixed(2);
+        tipTotal = tipTotal.toFixed(2);
+
+        console.log("Your total bill, with tip, is £", totalCost, ".", "\n", "The tip amount is £", tipTotal);
+
+        window.alert("Your total bill, with tip, is £" + totalCost + "." + "\n" + "The tip amount is £" + tipTotal);
+
+        var billMsg = "Your total bill, with tip, is £" + totalCost + ". The tip amount is £" + tipTotal
+        document.write(billMsg.replace("£ ","£"));
+}
 
 ```
