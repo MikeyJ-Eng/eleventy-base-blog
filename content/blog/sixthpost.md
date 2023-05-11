@@ -5,7 +5,7 @@ date: 2023-04-06
 tags:
   - another tag
 ---
-Today, I completed the task for my mandatory "Intro to JavaScript" lesson, as follows:
+Today, I completed the task for my TCG "Intro to JavaScript" lesson, as follows:
 
 1 We’ll make a program to calculate a tip
 

@@ -6,4 +6,5 @@ eleventyNavigation:
 ---
 # About Me
 
-We are Mike and Karen.
+Hi, everyone. I'm using eleventy as part of my Web Design course.
+I'll be storing some of the course task results here, and I might eventually use it (or GitHub) for showcasing my work.
