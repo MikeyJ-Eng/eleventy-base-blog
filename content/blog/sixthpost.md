@@ -37,10 +37,13 @@ Please provide a link below to your Codepen with the tasks on. Also please add a
 
 <a href="/blog/fifthpost/">Fifth post</a>
 
+<!--
 HTML:
+
 <!DOCTYPE html>
 <html lang="en">
-
+-->
+<!-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,7 +51,7 @@ HTML:
     <title>Javascript</title>
 
 </head>
-
+-->
 <body>
     <h1>Calculate bill cost</h1>
     <button type="button" onclick="calculateTotalCost()">Calculate bill cost</button>
@@ -57,10 +60,11 @@ HTML:
     <script src="Calculate a tip.js"></script>
 </body>
 
+<!--
 </html>
+-->
 
-
-JAVASCRIPT:
+<!-- JAVASCRIPT HERE -->
 function calculateTotalCost() {
         // Calculate a tip
 
