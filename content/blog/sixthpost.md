@@ -33,10 +33,6 @@ Make a Procedural Function in Javascript.
 Please provide a link below to your Codepen with the tasks on. Also please add a blog about these tasks to your Blogs.
 
 
-## Section Header
-
-<a href="/blog/fifthpost/">Sixth post</a>
-
 <body>
     <h1>Calculate bill cost</h1>
     <button type="button" onclick="calculateTotalCost()">Calculate bill cost</button>
@@ -45,8 +41,6 @@ Please provide a link below to your Codepen with the tasks on. Also please add a
     <script src="Calculate a tip.js"></script>
 </body>
 
-
-<!-- JAVASCRIPT HERE -->
 <script>
 function calculateTotalCost() {
         // Calculate a tip
@@ -70,5 +64,3 @@ function calculateTotalCost() {
         document.write(billMsg.replace("£ ","£"));
 }
 </script>
-
-```

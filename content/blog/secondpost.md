@@ -10,21 +10,20 @@ Today, I completed the task for my TCG "Form-processing" lesson, as follows:
 The learners will be making updates to their SSG site.
 
 Create a new page on your static site.<br>
-Create a new HTML form on the new page.
+Create a new HTML form on the new page.<br>
 
-First name.
-Surname.
-Email.
-Message.
-Embed the form in your site.
-Style the form using bootstrap.
-Test the form on the site.
-Test the data was submitted.
-Additional
+First name.<br>
+Surname.<br>
+Email.<br>
+Message.<br>
+Embed the form in your site.<br>
+Style the form using bootstrap.<br>
+Test the form on the site.<br>
+Test the data was submitted.<br>
+Additional<br>
 Add a Checkbox for terms and conditions.
 
-
-<!-->## Section Header-->
+<!--## Section Header-->
 
 <body>
     <h1>Form Processing</h1>
