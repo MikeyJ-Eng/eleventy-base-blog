@@ -9,7 +9,7 @@ Today, I completed the task for my TCG "Form-processing" lesson, as follows:
 
 The learners will be making updates to their SSG site.
 
-Create a new page on your static site.
+Create a new page on your static site.<br>
 Create a new HTML form on the new page.
 
 First name.
