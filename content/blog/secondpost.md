@@ -1,17 +1,72 @@
 ---
-title: This is my second post with a much longer title.
-description: This is a post on My Blog about leveraging agile frameworks.
+title: This is my second post
+description: This is the TCG Form-processing task.
 date: 2023-05-02
 tags:
   - number 2
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Today, I completed the task for my TCG "Form-processing" lesson, as follows:
+
+The learners will be making updates to their SSG site.
+
+Create a new page on your static site.
+Create a new HTML form on the new page.
+
+First name.
+Surname.
+Email.
+Message.
+Embed the form in your site.
+Style the form using bootstrap.
+Test the form on the site.
+Test the data was submitted.
+Additional
+Add a Checkbox for terms and conditions.
+
 
 ## Section Header
 
-<a href="/blog/firstpost/">First post</a>
-<a href="/blog/thirdpost/">Third post</a>
+<body>
+    <h1>Form Processing</h1>
+    <form action=Imaginary_Page.js method="GET">
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+        <div class="form-group">
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="firstName" class="form-control" required placeholder="Sherlock">
+        </div><br>
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+        <div class="form-group">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" class="form-control" required placeholder="Holmes">
+        </div><br>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div><br>
+
+        <div class="form-group">
+            <label for="password">Password(8-16 chars):</label>
+            <input type="password" id="password" name="password" class="form-control" minlength="8" maxlength="16" required>
+        </div><br>
+
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" class="form-control">
+        </div><br>
+
+        <div class="form-group">
+            <label for="tnc">Agree to terms and conditions:</label>
+            <input type="checkbox" id="tnc" name="tnc">
+        </div><br>
+
+        <div class="form-group">
+            <input type="reset" class="btn btn-default">
+        </div>
+
+        <div class="form-group">
+            <input type="submit" class="btn btn-default">
+        </div>
+
+    </form>
+</body>
