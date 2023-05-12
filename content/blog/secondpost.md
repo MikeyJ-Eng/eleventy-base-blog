@@ -47,7 +47,8 @@ Add a Checkbox for terms and conditions.
 
         <div class="form-group">
             <label for="password">Password(8-16 chars):</label>
-            <input type="password" id="password" name="password" class="form-control" minlength="8" maxlength="16" required>
+            <input type="password" id="password" name="password" class="form-control" minlength="8" maxlength="16"
+                required>
         </div><br>
 
         <div class="form-group">
@@ -61,11 +62,11 @@ Add a Checkbox for terms and conditions.
         </div><br>
 
         <div class="form-group">
-            <input type="reset" class="btn btn-default">
+            <button class="btn btn-default" type="reset">Reset</button>
         </div>
 
         <div class="form-group">
-            <input type="submit" class="btn btn-default">
+            <button class="btn btn-default" type="submit">Submit</button>
         </div>
 
     </form>
