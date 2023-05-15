@@ -1,20 +1,21 @@
 ---
-title: This page highlights my TCG Bootcamp homework tasks
-description: This is a post about my TCG Bootcamp experience
+title: TCG Bootcamp challenges
+description: This is a post based on my TCG Bootcamp experience
 date: 2023-05-01
 tags:
-  - another tag
+  - Bootcamp Challenges
 ---
 ---------------------------------------------------------------
 Task: We’ll make a program to calculate a tip
 <br>Create variables for the pre-tip total and the tip percentage
 <br>Calculate the new total
-<br>Output a sentence to the page (Console, Window, and Document): Your total bill, with tip, is £35.45
+<br>Output a sentence to the page (Console, Window, and Document): <br>Your total bill, with tip, is £22.00.
 <br><br>Additional:
 <br>Make a Procedural Function in Javascript.
 <br><br>BONUS POINTS:
 <br>Use toFixed() to round the output to 2 decimal places
-<br>Display the tip amount
+<br>Display the tip amount:
+<br>Your total bill, with tip, is £22.00. The tip amount is £2.00.
 
 <br><br>Code:
 ```diff-js
