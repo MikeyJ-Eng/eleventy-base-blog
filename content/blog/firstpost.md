@@ -7,7 +7,7 @@ tags:
 ---
 {% image "./firstpostbanner.jpg", "A teamwork diagram" %}
 ---------------------------------------------------------------
-<a href="fixStart">Fix Start challenge</a>
+<a href="#fixStart">Fix Start challenge</a>
 ---------------------------------------------------------------
 <h2>Task: Make a program to calculate a tip</h2>
 <br>Create variables for the pre-tip total and the tip percentage
@@ -161,7 +161,7 @@ Pseudocode for function:
 
 <br>Code:
 ```diff-js
-var oldString = prompt("Enter word");
+var oldString = prompt("Enter a word to play Fix Start");
 document.write(`Changed ${oldString} to ${fixStart(oldString)}`);
 
 function fixStart(oldString) {
@@ -185,7 +185,7 @@ function fixStart(oldString) {
 ```
 
 <script>
-    var oldString = prompt("Enter word");
+    var oldString = prompt("Enter a word to play Fix Start");
     document.write(`Changed ${oldString} to ${fixStart(oldString)}`);
 
     function fixStart(oldString) {
