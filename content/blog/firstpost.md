@@ -156,60 +156,58 @@ Pseudocode for function:
 <br>--      UPDATE the character to "*"
 <br>JOIN the array back to a string
 <br>RETURN the string
+
 <br>Code:
 ```diff-js
-
 <body>
-    <button type="button" onclick="fixStart('turtle')">Play fixStart</button>
+    <script>
+        var oldString = prompt("Enter word");
+        document.write(`Changed ${oldString} to ${fixStart(oldString)}`);
+
+        function fixStart(oldString) {
+            // Store the first character of the passed string
+            let firstChar = oldString[0];
+            // Split the string to an array
+            let newString = oldString.split('');
+            let len = oldString.length;
+
+            // Loop for each character from the 2nd character
+            for (i = 1; i < len; i++) {
+                if (oldString[i] === firstChar) {
+                    newString[i] = "*";
+                }
+            }
+
+            // Join the array back to a string
+            newString = newString.join("");
+            return (newString);
+        }
+    </script>
 </body>
 
-<script>
-// fixStart game
-oldString = "babble";
-document.write(`Changed ${oldString} to ${fixStart(oldString)}`);
-
-function fixStart(oldString) {
-  // Store the first character of the passed string
-  let firstChar = oldString[0];
-  // Split the string to an array
-  let newString = oldString.split('');
-  let len = oldString.length;
-
-  // Loop for each character from the 2nd character
-  for (i=1; i < len; i++) {
-    if (oldString[i] === firstChar) {
-        newString[i] = "*";
-    } 
-  }
-
-  // Join the array back to a string
-  newString = newString.join("");
-  return (newString);
-}
-</script>
 ```
+<body>
+    <script>
+        var oldString = prompt("Enter word");
+        document.write(`Changed ${oldString} to ${fixStart(oldString)}`);
 
-<script>
-// fixStart game
-oldString = "babble";  // Expected answer: 'ba**le'
-document.write(`Changed ${oldString} to ${fixStart(oldString)}`);
+        function fixStart(oldString) {
+            // Store the first character of the passed string
+            let firstChar = oldString[0];
+            // Split the string to an array
+            let newString = oldString.split('');
+            let len = oldString.length;
 
-function fixStart(oldString) {
-  // Store the first character of the passed string
-  let firstChar = oldString[0];
-  // Split the string to an array
-  let newString = oldString.split('');
-  let len = oldString.length;
+            // Loop for each character from the 2nd character
+            for (i = 1; i < len; i++) {
+                if (oldString[i] === firstChar) {
+                    newString[i] = "*";
+                }
+            }
 
-  // Loop for each character from the 2nd character
-  for (i=1; i < len; i++) {
-    if (oldString[i] === firstChar) {
-        newString[i] = "*";
-    } 
-  }
-
-  // Join the array back to a string
-  newString = newString.join("");
-  return (newString);
-}
-</script>
+            // Join the array back to a string
+            newString = newString.join("");
+            return (newString);
+        }
+    </script>
+</body>
