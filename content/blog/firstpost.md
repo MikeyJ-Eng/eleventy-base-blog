@@ -140,7 +140,7 @@ var temperature = Number(prompt("Enter temperature:"));
 </script>
 
 <br>------------------------------------------------------------
-<br>Task: Fixstart 
+<br><h2>Task: Fixstart</h2>
 <br>Create a function called fixStart. It should take a single argument, a string, and return a version where all occurrences of its first character have been replaced except for the first character itself.
 <br>You can assume that the string is at least one character long. <br>For example:
 <br>fixStart('babble'): 'ba**le'
