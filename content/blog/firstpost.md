@@ -7,9 +7,12 @@ tags:
 ---
 {% image "./firstpostbanner.jpg", "A teamwork diagram" %}
 ---------------------------------------------------------------
-<a href="#fixStart">Fix Start challenge</a>
+<a href="#calculateTip">Make a program to calculate a tip</a>
+<a href="#fixStart">Intro to JS functions</a>
+<a href="#introToJavascript">Fix Start challenge</a>
+<>br>
 ---------------------------------------------------------------
-<h2>Task: Make a program to calculate a tip</h2>
+<h2 id="calculateTip">Task: Make a program to calculate a tip</h2>
 <br>Create variables for the pre-tip total and the tip percentage
 <br>Calculate the new total
 <br>Output a sentence to the page (Console, Window, and Document): <br>Your total bill, with tip, is £22.00.
@@ -75,7 +78,7 @@ function calculateTotalCost() {
 </script>
 
 <br><br>---------------------------------------------------------------
-<br><h2>Task: Intro to JS functions</h2>
+<br><h2 id="introToJavascript">Task: Intro to JS functions</h2>
 <br>a) Create a variable called "temperature" to hold °C values.
 <br>Write code that informs the user:
 <br>-  If it's less than 10 degrees, "Wear a coat."
