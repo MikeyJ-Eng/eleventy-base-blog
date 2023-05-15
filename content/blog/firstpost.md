@@ -7,7 +7,9 @@ tags:
 ---
 {% image "./firstpostbanner.jpg", "A teamwork diagram" %}
 ---------------------------------------------------------------
-Task: Make a program to calculate a tip
+<a href="fixStart">Fix Start challenge</a>
+---------------------------------------------------------------
+<h2>Task: Make a program to calculate a tip</h2>
 <br>Create variables for the pre-tip total and the tip percentage
 <br>Calculate the new total
 <br>Output a sentence to the page (Console, Window, and Document): <br>Your total bill, with tip, is £22.00.
@@ -73,7 +75,7 @@ function calculateTotalCost() {
 </script>
 
 <br><br>---------------------------------------------------------------
-<br>Task: Intro to JS functions
+<br><h2>Task: Intro to JS functions</h2>
 <br>a) Create a variable called "temperature" to hold °C values.
 <br>Write code that informs the user:
 <br>-  If it's less than 10 degrees, "Wear a coat."
@@ -140,7 +142,7 @@ var temperature = Number(prompt("Enter temperature:"));
 </script>
 
 <br>------------------------------------------------------------
-<br><h2>Task: Fixstart</h2>
+<br><h2 id="fixStart">Task: Fixstart</h2>
 <br>Create a function called fixStart. It should take a single argument, a string, and return a version where all occurrences of its first character have been replaced except for the first character itself.
 <br>You can assume that the string is at least one character long. <br>For example:
 <br>fixStart('babble'): 'ba**le'
