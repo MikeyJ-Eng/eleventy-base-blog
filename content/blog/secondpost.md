@@ -1,5 +1,5 @@
 ---
-title: TCG Bootcamp<br>Form-processing challenge
+title: TCG Bootcamp Form-processing challenge
 description: This is a post based on my TCG Bootcamp experience
 date: 2023-05-02
 tags:
