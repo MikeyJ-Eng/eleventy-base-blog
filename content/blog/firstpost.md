@@ -17,7 +17,7 @@ Task: Make a program to calculate a tip
 <br>Display the tip amount:
 <br>Your total bill, with tip, is £22.00. The tip amount is £2.00.
 
-<br><br>Code:
+<br>Code:
 ```diff-js
 function calculateTotalCost() {
         // Calculate a tip
@@ -73,13 +73,13 @@ function calculateTotalCost() {
 </script>
 
 <br><br>---------------------------------------------------------------
-Task: Intro to JS functions
-<br>a) Create a variable called "temperature" to hold Celsius values.
+<br>Task: Intro to JS functions
+<br>a) Create a variable called "temperature" to hold \degree Celsius values.
 <br>Write some code that informs the user:
 <br>  If it's less than 10 degrees, "Wear a coat".
 <br>  If it's less than 5 degrees, "Wear a coat and a hat".
 <br>  If it's less than 0 degrees, "Stay inside".
-<br>  Otherwise, "Just pants and vest is fine".<br>
+<br>  Otherwise, "Just pants and vest is fine".
 <br>b) Add a logical operator.
 
 
