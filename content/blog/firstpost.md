@@ -10,7 +10,7 @@ tags:
 <a href="#calculateTip">Make a program to calculate a tip</a>
 <a href="#fixStart">Intro to JS functions</a>
 <a href="#introToJavascript">Fix Start challenge</a>
-<>br>
+<br>
 ---------------------------------------------------------------
 <h2 id="calculateTip">Task: Make a program to calculate a tip</h2>
 <br>Create variables for the pre-tip total and the tip percentage
