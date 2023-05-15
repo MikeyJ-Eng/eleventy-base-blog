@@ -5,6 +5,7 @@ date: 2023-05-01
 tags:
   - Bootcamp Challenges
 ---
+{% image "./firstpostbanner.jpg", "A teamwork diagram" %}
 ---------------------------------------------------------------
 Task: Make a program to calculate a tip
 <br>Create variables for the pre-tip total and the tip percentage
@@ -16,7 +17,6 @@ Task: Make a program to calculate a tip
 <br>Use toFixed() to round the output to 2 decimal places
 <br>Display the tip amount:
 <br>Your total bill, with tip, is £22.00. The tip amount is £2.00.
-
 <br>Code:
 ```diff-js
 function calculateTotalCost() {
@@ -81,7 +81,6 @@ function calculateTotalCost() {
 <br>-  If it's less than 0 degrees, "Stay inside."
 <br>-  Otherwise, "Just pants and vest is fine.".
 <br>b) Add a logical operator.
-
 <br>Code:
 ```diff-js
 <body>
