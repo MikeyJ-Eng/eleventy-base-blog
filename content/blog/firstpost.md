@@ -74,14 +74,45 @@ function calculateTotalCost() {
 
 <br><br>---------------------------------------------------------------
 <br>Task: Intro to JS functions
-<br>a) Create a variable called "temperature" to hold \degree Celsius values.
-<br>Write some code that informs the user:
-<br>  If it's less than 10 degrees, "Wear a coat".
-<br>  If it's less than 5 degrees, "Wear a coat and a hat".
-<br>  If it's less than 0 degrees, "Stay inside".
-<br>  Otherwise, "Just pants and vest is fine".
+<br>a) Create a variable called "temperature" to hold °C values.
+<br>Write code that informs the user:
+<br>-  If it's less than 10 degrees, "Wear a coat."
+<br>-  If it's less than 5 degrees, "Wear a coat and a hat."
+<br>-  If it's less than 0 degrees, "Stay inside."
+<br>-  Otherwise, "Just pants and vest is fine.".
 <br>b) Add a logical operator.
 
+<br>Code:
+```diff-js
+<body>
+    <button type="button" onclick="WhatShallIWear()">What shall I wear?</button>
+</body>
+
+<script>
+function WhatShallIWear() {
+var temperature = Number(prompt("Enter temperature:"));
+    if (temperature < 0) {
+        document.write("Stay inside");
+    }
+    else if (temperature < 5) {
+        document.write("Wear a coat and a hat");
+    }
+    else if (temperature < 10) {
+        document.write("Wear a coat");
+    }
+    else {
+        document.write("Just pants and vest is fine");
+    }
+
+    if (temperature > 20 && temperature < 50) {
+        document.write("<br>Time to sunbathe!");
+    }
+}
+
+// const temperature = 25;
+// testMyJS(temperature);
+</script>
+```
 
 <body>
     <button type="button" onclick="WhatShallIWear()">What shall I wear?</button>
