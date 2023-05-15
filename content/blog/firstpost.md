@@ -6,7 +6,7 @@ tags:
   - Bootcamp Challenges
 ---
 ---------------------------------------------------------------
-Task: We’ll make a program to calculate a tip
+Task: Make a program to calculate a tip
 <br>Create variables for the pre-tip total and the tip percentage
 <br>Calculate the new total
 <br>Output a sentence to the page (Console, Window, and Document): <br>Your total bill, with tip, is £22.00.
@@ -70,4 +70,44 @@ function calculateTotalCost() {
         var billMsg = "Your total bill, with tip, is £" + totalCost + ". The tip amount is £" + tipTotal
         document.write(billMsg.replace("£ ","£"));
 }
+</script>
+
+<br><br>---------------------------------------------------------------
+Task: Intro to JS functions
+<br>a) Create a variable called "temperature" to hold Celsius values.
+<br>Write some code that informs the user:
+<br>  If it's less than 10 degrees, "Wear a coat".
+<br>  If it's less than 5 degrees, "Wear a coat and a hat".
+<br>  If it's less than 0 degrees, "Stay inside".
+<br>  Otherwise, "Just pants and vest is fine".<br>
+<br>b) Add a logical operator.
+
+
+<body>
+    <button type="button" onclick="WhatShallIWear()">What shall I wear?</button>
+</body>
+
+<script>
+function WhatShallIWear() {
+var temperature = Number(prompt("Enter temperature:"));
+    if (temperature < 0) {
+        document.write("Stay inside");
+    }
+    else if (temperature < 5) {
+        document.write("Wear a coat and a hat");
+    }
+    else if (temperature < 10) {
+        document.write("Wear a coat");
+    }
+    else {
+        document.write("Just pants and vest is fine");
+    }
+
+    if (temperature > 20 && temperature < 50) {
+        document.write("<br>Time to sunbathe!");
+    }
+}
+
+// const temperature = 25;
+// testMyJS(temperature);
 </script>

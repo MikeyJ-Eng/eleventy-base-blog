@@ -1,27 +1,25 @@
 ---
-title: TCG Bootcamp form-processing challenge
+title: TCG Bootcamp<br>Form-processing challenge
 description: This is a post based on my TCG Bootcamp experience
 date: 2023-05-02
 tags:
   - Bootcamp Challenges
 ---
-<br>Create a new page on your static site.
-<br>Create a new HTML form on the new page.
-
+Create a new HTML form on the new page on your static site:
 <br>First name.
 <br>Surname.
 <br>Email.
 <br>Message.
-<br>Embed the form in your site.
-<br>Style the form using bootstrap.
+<br>Checkbox for terms and conditions.
+<br>Embed the form in your site, and style the form using bootstrap.
 <br>Test the form on the site.
 <br>Test the data was submitted.
-<br>Add a Checkbox for terms and conditions.
 
-<br><br>Code:
+<br>Code:
 ```diff-js
 <body>
     <h1>Form Processing</h1>
+    // method="GET" used to show parameters
     <form action=Imaginary_Page.js method="GET">
 
         <div class="form-group">
@@ -70,6 +68,7 @@ tags:
 
 <body>
     <h1>Form Processing</h1>
+    // method="GET" used to show parameters
     <form action=Imaginary_Page.js method="GET">
 
         <div class="form-group">
