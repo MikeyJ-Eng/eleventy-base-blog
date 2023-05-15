@@ -1,26 +1,48 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
+title: This page highlights my TCG Bootcamp homework tasks
+description: This is a post about my TCG Bootcamp experience
 date: 2023-05-01
 tags:
   - another tag
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+---------------------------------------------------------------
+Task: We’ll make a program to calculate a tip
+Create variables for the pre-tip total and the tip percentage
+Calculate the new total
+Output a sentence to the page (Console, Window, and Document): Your total bill, with tip, is £35.45
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Additional:
+Make a Procedural Function in Javascript.
+BONUS POINTS:
+Use toFixed() to round the output to 2 decimal places
+Display the tip amount
 
-## Section Header
+<body>
+    <h1>Calculate bill cost</h1>
+    <button type="button" onclick="calculateTotalCost()">Calculate bill cost</button>
+</body>
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+<script>
+function calculateTotalCost() {
+        // Calculate a tip
 
-```diff-js
- // this is a command
- function myCommand() {
-+  let counter = 0;
--  let counter = 1;
-   counter++;
- }
+        // Get required values from user
+        var mealCost = Number(prompt("Enter meal price:"));
+        var tipPerc = Number(prompt("Enter the tip percentage:"));
 
- // Test with a line break above this line.
- console.log('Test');
-```
+        var tipTotal = Number(tipPerc / 100 * mealCost);
+        var totalCost = mealCost + tipTotal;
+
+        // Round the output to 2 decimal places
+        totalCost = totalCost.toFixed(2);
+        tipTotal = tipTotal.toFixed(2);
+
+      // Output a sentence to the page (Console, Window, and Document)
+        console.log("Your total bill, with tip, is £", totalCost, ".", "\n", "The tip amount is £", tipTotal);
+
+        window.alert("Your total bill, with tip, is £" + totalCost + "." + "\n" + "The tip amount is £" + tipTotal);
+
+        var billMsg = "Your total bill, with tip, is £" + totalCost + ". The tip amount is £" + tipTotal
+        document.write(billMsg.replace("£ ","£"));
+}
+</script>
