@@ -25,10 +25,10 @@ tags:
 <br>Use toFixed() to round the output to 2 decimal places
 <br>Display the tip amount:
 <br>Your total bill, with tip, is £22.00. The tip amount is £2.00.
-    <button type="button" onclick="calculateTotalCost()">Calculate a tip</button>
-    <br>
-    <button type="button" onclick="WhatShallIWear()">What shall I wear?</button>
+    <br><button type="button" onclick="calculateTotalCost()">Calculate a tip</button>
+    <br><button type="button" onclick="WhatShallIWear()">What shall I wear?</button>
 </body>
+
 <br>Code:
 ```diff-js
 function calculateTotalCost() {
@@ -97,10 +97,6 @@ function calculateTotalCost() {
 <br>b) Add a logical operator.
 <br>Code:
 ```diff-js
-<body>
-    <button type="button" onclick="WhatShallIWear()">What shall I wear?</button>
-</body>
-
 <script>
 function WhatShallIWear() {
 var temperature = Number(prompt("Enter temperature:"));

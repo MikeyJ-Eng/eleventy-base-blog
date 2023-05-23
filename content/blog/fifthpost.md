@@ -5,7 +5,6 @@ date: 2023-05-05
 tags:
   - Bootcamp Challenges
 ---
-{% image "./firstpostbanner.jpg", "A teamwork diagram" %}
 ---------------------------------------------------------------
 <h2 Fix Start challenge></h2>
 <br><h2 id="fixStart">Task: Fixstart</h2>
@@ -14,9 +13,9 @@ tags:
 <br>fixStart('babble'): 'ba**le'
 <br>fixStart('turtle'): 'tur*le'
 <br>fixStart('and'): 'and'
-<br>Start by writing the pseudocode
 
-Pseudocode for function:
+<br>Start by writing the pseudocode.
+<br>Pseudocode for function:
 <br>STORE the first character of the passed string
 <br>SPLIT the string to an array
 <br>LOOP FOR each character from the 2nd character
@@ -26,6 +25,7 @@ Pseudocode for function:
 <br>RETURN the string
 
 <br>Code:
+
 ```diff-js
 var oldString = prompt("Enter a word to play Fix Start");
 document.write(`Changed ${oldString} to ${fixStart(oldString)}`);
@@ -49,7 +49,7 @@ function fixStart(oldString) {
     return (newString);
 }
 ```
-<iframe height="200" width="300" title="Iframe Example">
+
 <script>
     var oldString = prompt("Enter a word to play Fix Start");
     document.write(`Changed ${oldString} to ${fixStart(oldString)}`);
@@ -73,4 +73,3 @@ function fixStart(oldString) {
         return (newString);
     }
 </script>
-</iframe>
