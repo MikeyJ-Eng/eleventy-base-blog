@@ -6,8 +6,11 @@ tags:
   - Bootcamp Challenges
 ---
 ---------------------------------------------------------------
+<body>
+    <br><button type="button" onclick="calculateTotalCost()">Calculate a tip</button>
+    <br><br><br>
 <h2 Fix Start challenge></h2>
-<br><h2 id="fixStart">Task: Fixstart</h2>
+<br><h3 id="fixStart">Task: Fixstart</h3>
 <br>Create a function called fixStart. It should take a single argument, a string, and return a version where all occurrences of its first character have been replaced except for the first character itself.
 <br>You can assume that the string is at least one character long. <br>For example:
 <br>fixStart('babble'): 'ba**le'

@@ -18,7 +18,7 @@ tags:
     <br><button type="button" onclick="WhatShallIWear()">What shall I wear?</button>
     <br><br><br>
     <h3 id="calculateTip">Task: Make a program to calculate a tip</h3>
-    <br>Create variables for the pre-tip total and the tip percentage
+    Create variables for the pre-tip total and the tip percentage
     <br>Calculate the new total
     <br>Output a sentence to the page (Console, Window, and Document): <br>Your total bill, with tip, is £22.00.
     <br><br>Additional:
@@ -55,11 +55,10 @@ function calculateTotalCost() {
 }
 ```
 
-<br><br>
-<a href="#toc">Return to top</a>
+<br><a href="#toc">Return to top</a>
 
 <br><br>---------------------------------------------------------------
-<br><h2 id="whatShallIWear">Task: Checking the temperature</h2>
+<br><h3 id="whatShallIWear">Task: Checking the temperature</h3>
 <br>a) Create a variable called "temperature" to hold °C values.
 <br>Write code that informs the user:
 <br>-  If it's less than 10 degrees, "Wear a coat."
@@ -70,7 +69,6 @@ function calculateTotalCost() {
 <br>Code:
 
 ```diff-js
-<script>
 function WhatShallIWear() {
 var temperature = Number(prompt("Enter temperature:"));
     if (temperature < 0) {
@@ -92,11 +90,10 @@ var temperature = Number(prompt("Enter temperature:"));
 }
 
 // const temperature = 25;
-// testMyJS(temperature);
-</script>
+// WhatShallIWear(temperature);
 ```
 
-<br><br><a href="#toc">Return to top</a>
+<br><a href="#toc">Return to top</a>
 
 <script>
 // Functions here:
