@@ -7,9 +7,10 @@ tags:
 ---
 {% image "./firstpostbanner.jpg", "A teamwork diagram" %}
 ---------------------------------------------------------------
-<a href="#calculateTip">Make a program to calculate a tip</a>
-<a href="#fixStart">Intro to JS functions</a>
-<a href="#introToJavascript">Fix Start challenge</a>
+<h2 id="toc">Table Of Contents</h2>
+<a href="#calculateTip">Calculate a tip challenge</a>
+<a href="#whatShallIWear">What shall I wear challenge</a>
+<a href="#fixStart">Fix Start challenge</a>
 <br>
 ---------------------------------------------------------------
 <h2 id="calculateTip">Task: Make a program to calculate a tip</h2>
@@ -77,8 +78,10 @@ function calculateTotalCost() {
 }
 </script>
 
+<a href="#toc">Return to top</a>
+
 <br><br>---------------------------------------------------------------
-<br><h2 id="introToJavascript">Task: Intro to JS functions</h2>
+<br><h2 id="whatShallIWear">Task: Checking the temperature</h2>
 <br>a) Create a variable called "temperature" to hold °C values.
 <br>Write code that informs the user:
 <br>-  If it's less than 10 degrees, "Wear a coat."
@@ -144,6 +147,8 @@ var temperature = Number(prompt("Enter temperature:"));
 }
 </script>
 
+<a href="#toc">Return to top</a>
+
 <br>------------------------------------------------------------
 <br><h2 id="fixStart">Task: Fixstart</h2>
 <br>Create a function called fixStart. It should take a single argument, a string, and return a version where all occurrences of its first character have been replaced except for the first character itself.
@@ -186,7 +191,7 @@ function fixStart(oldString) {
     return (newString);
 }
 ```
-
+<iframe>
 <script>
     var oldString = prompt("Enter a word to play Fix Start");
     document.write(`Changed ${oldString} to ${fixStart(oldString)}`);
@@ -210,3 +215,6 @@ function fixStart(oldString) {
         return (newString);
     }
 </script>
+</iframe>
+
+<a href="#toc">Return to top</a>
