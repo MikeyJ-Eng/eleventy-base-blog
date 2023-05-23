@@ -8,12 +8,14 @@ tags:
 {% image "./firstpostbanner.jpg", "A teamwork diagram" %}
 ---------------------------------------------------------------
 <h2 id="toc">Table Of Contents</h2>
-<a href="#calculateTip">Calculate a tip challenge</a>
-<a href="#whatShallIWear">What shall I wear challenge</a>
-<a href="#fixStart">Fix Start challenge</a>
+<a href="#calculateTip">1. Calculate a tip challenge</a>
+<br><a href="#whatShallIWear">2. What shall I wear? challenge</a>
+<br><a href="#fixStart">3. Fix Start challenge</a>
 <br>
 ---------------------------------------------------------------
-<h2 id="calculateTip">Task: Make a program to calculate a tip</h2>
+
+<body>
+<h3 id="calculateTip">Task: Make a program to calculate a tip</h3>
 <br>Create variables for the pre-tip total and the tip percentage
 <br>Calculate the new total
 <br>Output a sentence to the page (Console, Window, and Document): <br>Your total bill, with tip, is £22.00.
@@ -23,6 +25,10 @@ tags:
 <br>Use toFixed() to round the output to 2 decimal places
 <br>Display the tip amount:
 <br>Your total bill, with tip, is £22.00. The tip amount is £2.00.
+    <button type="button" onclick="calculateTotalCost()">Calculate a tip</button>
+    <br>
+    <button type="button" onclick="WhatShallIWear()">What shall I wear?</button>
+</body>
 <br>Code:
 ```diff-js
 function calculateTotalCost() {
@@ -120,10 +126,6 @@ var temperature = Number(prompt("Enter temperature:"));
 // testMyJS(temperature);
 </script>
 ```
-
-<body>
-    <button type="button" onclick="WhatShallIWear()">What shall I wear?</button>
-</body>
 
 <script>
 function WhatShallIWear() {
