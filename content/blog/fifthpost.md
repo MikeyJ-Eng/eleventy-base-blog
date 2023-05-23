@@ -1,5 +1,5 @@
 ---
-title: TCG Bootcamp challenges
+title: Fix Start challenge
 description: This is a post based on my TCG Bootcamp experience
 date: 2023-05-05
 tags:
