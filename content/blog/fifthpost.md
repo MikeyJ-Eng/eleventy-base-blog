@@ -7,25 +7,24 @@ tags:
 ---
 ---------------------------------------------------------------
 <body>
-    <br><button type="button" onclick="calculateTotalCost()">Calculate a tip</button>
-    <br><br><br>
-<h2 Fix Start challenge></h2>
-<br><h3 id="fixStart">Task: Fixstart</h3>
-<br>Create a function called fixStart. It should take a single argument, a string, and return a version where all occurrences of its first character have been replaced except for the first character itself.
-<br>You can assume that the string is at least one character long. <br>For example:
-<br>fixStart('babble'): 'ba**le'
-<br>fixStart('turtle'): 'tur*le'
-<br>fixStart('and'): 'and'
+    <h2 Fix Start challenge></h2>
+    <br><h3 id="fixStart">Task: Fixstart</h3>
+    <br>Create a function called fixStart. It should take a single argument, a string, and return a version where all occurrences of its first character have been replaced except for the first character itself.
+    <br>You can assume that the string is at least one character long. <br>For example:
+    <br>fixStart('babble'): 'ba**le'
+    <br>fixStart('turtle'): 'tur*le'
+    <br>fixStart('and'): 'and'
 
-<br>Start by writing the pseudocode.
-<br>Pseudocode for function:
-<br>STORE the first character of the passed string
-<br>SPLIT the string to an array
-<br>LOOP FOR each character from the 2nd character
-<br>-  IF the character == the stored character
-<br>--      UPDATE the character to "*"
-<br>JOIN the array back to a string
-<br>RETURN the string
+    <br>Start by writing the pseudocode.
+    <br>Pseudocode for function:
+    <br>STORE the first character of the passed string
+    <br>SPLIT the string to an array
+    <br>LOOP FOR each character from the 2nd character
+    <br>-  IF the character == the stored character
+    <br>--      UPDATE the character to "*"
+    <br>JOIN the array back to a string
+    <br>RETURN the string
+</body>
 
 <br>Code:
 
