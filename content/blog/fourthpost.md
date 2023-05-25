@@ -22,7 +22,10 @@ tags:
 
 ```diff-js
 // Drinks machine
-var size = "s", buttonName = "orange";
+
+// Get required values from user
+const size = prompt("Enter size (s, m, or l):");
+const buttonName = prompt("Enter drink (cola, lemon, or orange):");
 
 msg = drinkOrder(size, buttonName);
 console.log(msg);
@@ -64,7 +67,6 @@ function drinkOrder(size, buttonName) {
 
 <script>
 // Drinks machine
-// var size = "s", buttonName = "orange";
 // Get required values from user
 const size = prompt("Enter size (s, m, or l):");
 const buttonName = prompt("Enter drink (cola, lemon, or orange):");
