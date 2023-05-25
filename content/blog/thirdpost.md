@@ -1,5 +1,5 @@
 ---
-title: Task: Percentage Calculator
+title: Percentage Calculator
 description: This is a post based on my TCG Bootcamp experience
 date: 2023-05-03
 tags:
