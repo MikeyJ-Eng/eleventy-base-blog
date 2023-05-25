@@ -32,7 +32,7 @@ tags:
 <br>Code:
 ```diff-js
 function calculateTotalCost() {
-        // Calculate a tip
+        // Function to Calculate a tip
 
         // Get required values from user
         var mealCost = Number(prompt("Enter meal price:"));
@@ -88,9 +88,6 @@ var temperature = Number(prompt("Enter temperature:"));
         document.write("<br>Time to sunbathe!");
     }
 }
-
-// const temperature = 25;
-// WhatShallIWear(temperature);
 ```
 
 <br><a href="#toc">Return to top</a>

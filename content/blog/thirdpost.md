@@ -19,11 +19,16 @@ tags:
 <br>Code:
 
 ```diff-js
-// Percentage calculator
-const number = 60, percentage = 5;
-console.log(percentageCalculator(number, percentage));
+// Get required values from user
+var number = Number(prompt("Enter the number:"));
+var percentage = Number(prompt("Enter the percentage:"));
+
+console.log(percentage + "% of " + number + "=" + percentageCalculator(number, percentage));
+// Included document.write be cause console.log is debug only
+document.write(percentage + "% of " + number + "=" + percentageCalculator(number, percentage));
 
 function percentageCalculator (number, percentage)
+// Percentage calculator
 {
     return (number*percentage/100);
 }
@@ -35,8 +40,9 @@ function percentageCalculator (number, percentage)
 var number = Number(prompt("Enter the number:"));
 var percentage = Number(prompt("Enter the percentage:"));
 
-console.log(percentage + "% of" + number + "=" + percentageCalculator(number, percentage));
-document.write(percentage + "% of" + number + "=" + percentageCalculator(number, percentage));
+console.log(percentage + "% of " + number + "=" + percentageCalculator(number, percentage));
+// Included document.write be cause console.log is debug only
+document.write(percentage + "% of " + number + "=" + percentageCalculator(number, percentage));
 
 function percentageCalculator (number, percentage)
 // Percentage calculator
