@@ -20,11 +20,15 @@ tags:
 
 ```diff-js
 // Calculator
-const number1 = 12, number2 = 3, operator = "/";
+
+// Get required values from user
+const number1 = Number(prompt("Enter the first operand:"));
+const number2 = Number(prompt("Enter the second operand:"));
+const operator = prompt("Enter the mathematical operator (+, -, *, /, or %):");
             
 console.log(number1 + operator + number2 +  "=" + calculator(number1, number2, operator));
+document.write(number1 + operator + number2 +  "=" + calculator(number1, number2, operator));
 
-// Functions below here
 function calculator(number1, number2, operator) {
     switch (operator) {
         case "+":
@@ -54,11 +58,10 @@ function calculator(number1, number2, operator) {
 
 <script>
 // Calculator
-//const number1 = 12, number2 = 3, operator = "/";
 
 // Get required values from user
 const number1 = Number(prompt("Enter the first operand:"));
-const number1 = Number(prompt("Enter the first operand:"));
+const number2 = Number(prompt("Enter the second operand:"));
 const operator = prompt("Enter the mathematical operator (+, -, *, /, or %):");
             
 console.log(number1 + operator + number2 +  "=" + calculator(number1, number2, operator));
