@@ -36,6 +36,7 @@ var number = Number(prompt("Enter the number:"));
 var percentage = Number(prompt("Enter the percentage:"));
 
 console.log(percentage + "% of" + number + "=" + percentageCalculator(number, percentage));
+document.write(percentage + "% of" + number + "=" + percentageCalculator(number, percentage));
 
 function percentageCalculator (number, percentage)
 // Percentage calculator
