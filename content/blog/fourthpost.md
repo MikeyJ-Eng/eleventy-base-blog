@@ -1,5 +1,5 @@
 ---
-title: Task: Drinks Machine
+title: Drinks Machine
 description: This is a post based on my TCG Bootcamp experience
 date: 2023-05-04
 tags:
