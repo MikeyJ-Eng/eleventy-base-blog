@@ -1,5 +1,5 @@
 ---
-title: Loops, Arrays and Objects - Practical
+title: Loops, Arrays and Objects - Averages
 description: This is a post based on my TCG Bootcamp experience
 date: 2023-05-09
 tags:
@@ -11,9 +11,9 @@ tags:
 
     <br>We are going to be creating a function that is able to take all of the values of an array and return the average.
     <br>The function will be able to return the mode, median or mean of the numbers.
-    <br>Create an array of random numbers
+    <br>Create an array of random numbers.
     <br>Create a function which takes 2 arguments (the array and a type variable).
-    <br>Create a switch statement which has the cases ‘mode’, ‘median’ and ‘mean’
+    <br>Create a switch statement which has the cases ‘mode’, ‘median’ and ‘mean’.
     <br>Return the required number based on the arguments passed.
 
 </body>
