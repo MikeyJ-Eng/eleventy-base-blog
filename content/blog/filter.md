@@ -86,7 +86,7 @@ small {
 <div id="summary"></div>
 <div id="results">
 <img animal="panda" class="imageFilter" src="https://images.pexels.com/photos/4444036/pexels-photo-4444036.jpeg?auto=compress&cs=tinysrgb&w=300">
-<img animal="panda" class="imageFilter" src="https://images.pexels.com/photos/4741847/pexels-photo-4741847.jpeg?auto=compress&cs=tinysrgb&w=300">
+<img animal="panda" class="imageFilter" alt="sleeping" src="https://images.pexels.com/photos/4741847/pexels-photo-4741847.jpeg?auto=compress&cs=tinysrgb&w=300">
 <img animal="lion" class="imageFilter" alt="yawning" src="https://images.pexels.com/photos/2265248/pexels-photo-2265248.jpeg?auto=compress&cs=tinysrgb&w=300">
 <img animal="giraffe" class="imageFilter" src="https://images.pexels.com/photos/5745126/pexels-photo-5745126.jpeg?auto=compress&cs=tinysrgb&w=300">
 <img animal="giraffe" class="imageFilter" src="https://images.pexels.com/photos/1054699/pexels-photo-1054699.jpeg?auto=compress&cs=tinysrgb&w=300">
@@ -100,7 +100,7 @@ small {
 <img animal="tiger" class="imageFilter" src="https://images.pexels.com/photos/831275/pexels-photo-831275.jpeg?auto=compress&cs=tinysrgb&w=300">
 <img animal="lion" class="imageFilter" src="https://images.pexels.com/photos/1320412/pexels-photo-1320412.jpeg?auto=compress&cs=tinysrgb&w=300">
 <img animal="giraffe" class="imageFilter" src="https://images.pexels.com/photos/4577498/pexels-photo-4577498.jpeg?auto=compress&cs=tinysrgb&w=300">
-<img animal="panda" class="imageFilter" src="https://images.pexels.com/photos/4741848/pexels-photo-4741848.jpeg?auto=compress&cs=tinysrgb&w=300">
+<img animal="panda" class="imageFilter" alt="sleeping" src="https://images.pexels.com/photos/4741848/pexels-photo-4741848.jpeg?auto=compress&cs=tinysrgb&w=300">
 </div>
 
 <small>Photos provided by <a href="https://www.pexels.com">Pexels</a>.</small>
