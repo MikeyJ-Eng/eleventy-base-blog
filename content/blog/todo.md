@@ -1,7 +1,7 @@
 ---
 title: ToDo List
 description: This is a post based on my TCG Bootcamp experience
-date: 2023-05-10
+date: 2023-06-05
 tags:
   - Bootcamp Challenges
 ---
@@ -11,7 +11,7 @@ tags:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Todo List!</title>
+  <title>Todo List Task!</title>
 
   <style>
     body {
