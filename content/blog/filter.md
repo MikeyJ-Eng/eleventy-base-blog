@@ -137,6 +137,14 @@ function shouldShowImage(image) {
   return image.alt.toLowerCase().includes(search.value.toLowerCase());
 }
 
+function update() {
+  filterAnimals();
+  updateSummary();
+}
+
+// Now update the summary on page load for the default selection.
+updateSummary();
+
 function filterAnimals() {
   for (const image of images) {
     if (shouldShowImage(image)) {
@@ -149,32 +157,20 @@ function filterAnimals() {
 }
 
 function updateSummary() {
-  // I've cheated slightly by using Node.textContent, which we haven't come
-  // across before. It's perfectly ok in this situation to use Element.innerHTML
-  // instead.
-  // 
+  // Steve used Node.textContent here, which we haven't learnt.
+  // We could use Element.innerHTML instead.
   // It's generally safer to use Node.textContent to set dynamic text content:
-  // with innerHTML you always have to ensure you're dealing with trusted input
-  // (which is the case here, so we're fine!).
-  //
+  // with innerHTML you always have to ensure you're dealing with trusted input.
   // See https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
   const filterLabel = form.querySelector(`label[for=${animalRadios.value}]`).textContent;
+  // If the search value exists... (colon means "doesn't exist"
   summary.textContent = search.value ?
     `Showing animals that match the filter "${filterLabel}" and the search "${search.value}".` :
     `Showing animals that match the filter "${filterLabel}".`;
 }
 
-// Now update the summary on page load for the default selection.
-updateSummary();
-
-function update() {
-  filterAnimals();
-  updateSummary();
-}
-
-// Prevent submission of the form. Even though there's no submit button, there
-// can be other ways to trigger a submission, eg. pressing enter on a text
-// field.
+// Prevent submission of the form. Even though there's no submit button, there are
+// other ways to trigger a submission, eg. pressing ENTER on a text field.
 form.addEventListener('submit', function (event) {
   event.preventDefault();
 });
