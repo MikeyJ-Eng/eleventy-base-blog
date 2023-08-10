@@ -22,9 +22,9 @@ Academic Summary:<br/>
 • Master’s Degree (MA) in Creative Writing and English Literature<br/>
 – National DongHwa University<br/>
 • Bachelor’s Degree (BSc) in Computing & Information Systems<br/>
-– University of Portsmouth<br/><br/>
+– University of Portsmouth<br/>
 • JavaScript DOM from scratch to pro<br/>
-– Udemy<br/><br/>
+– Udemy<br/>
 • Web Design and Development Bootcamp (HTML, CSS, and Javascript)<br/>
 – The Coder’s Guild<br/> 
 • CS50 Programming with Python<br/>
