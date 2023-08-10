@@ -8,17 +8,18 @@ tags:
 <head>
 	<title>TCG: Semantic HTML Challenge Task</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!--	<link rel="stylesheet" href="tenthpost.css"> -->
 	<link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
-    <style>
+<style>
 .h3 {
 	font-family: "Helvetica Neu";
 }
 
 .h4 {
-	font-family: "Rock Salt";
-	font-size: 8px;
-	text-align: right;
+    font-family: "Rock Salt";
+    font-size: 8px;
+    text-align: right;
 }
 
 body {
