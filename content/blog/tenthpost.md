@@ -8,7 +8,7 @@ tags:
 <head>
 	<title>TCG: Semantic HTML Challenge Task</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="responsive_table_style.css">
+	<link rel="stylesheet" href="tenthpost.css">
 	<link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
 </head>
 <body>
