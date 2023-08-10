@@ -23,7 +23,7 @@ Academic Summary:<br/>
   – National DongHwa University<br/>
 • Bachelor’s Degree (BSc) in Computing & Information Systems<br/>
   – University of Portsmouth<br/> 
-• Full-stack Web Design and Development Bootcamp, using HTML, CSS, and Javascript<br/>
+• Web Design and Development Bootcamp, using HTML, CSS, and Javascript<br/>
   - The Coder’s Guild<br/> 
 • JavaScript DOM from scratch to pro<br/>
   - Udemy<br/>
@@ -35,8 +35,8 @@ Academic Summary:<br/>
 Technical Skills:<br/>
 • Software engineering: Python. Visual Basic. VBA.<br/>
   Object-Oriented Programming (OOP). C.<br/>
-• Web development: Full-stack development. HTML. Cascading Style Sheets (CSS). Javascript.
-  API. Active Server Pages (ASP). Bootstrap. Frameworks. Jamstack.<br/>
+• Web development: Full-stack development. HTML. Cascading Style Sheets (CSS).<br/>
+  Javascript. API. Active Server Pages (ASP). Bootstrap. Frameworks. Jamstack.<br/>
   Semantic markup and Accessibility.<br/>
 • Other: Git. GitHub. Netlify. Algorithms. Data structures. Logical expressions.<br/>
   Visual Studio. VS Code. Codepen. Slack. Moodle. Google Meet. Zoom.<br/> 
@@ -48,13 +48,15 @@ Technical Skills:<br/>
 <br/>
 Business Skills:<br/>
 • Finance: Banking. Loan. Mortgage. Stock market. Audit. Security.<br/>
-• Marketing: Direct mail. Telemarketing. Data Science. Deduplication. Mailsort. Mailmerge.
-  Inbound and outbound mail. Postcoding. PAF validation.<br/>
+• Marketing: Direct mail. Telemarketing. Data Science. Deduplication. Mailsort.<br/>
+  Mailmerge. Inbound and outbound mail. Postcoding. PAF validation.<br/>
   Transactional mail (statements and loyalty schemes).<br/>
   Staged/staggered mail. List maintenance. Document composition.<br/>
-• Retail: Transaction processing. Electronic Point of sale (EPOS). Customs and Excise.
-  Telecoms. Pay per view (PPV). Credit payments. Direct debits. Debt collection.<br/> 
-• Customer Relationship Management (CRM): Human Resources (HR). ITIL. Stakeholder liaison.<br/> 
+• Retail: Transaction processing. Electronic Point of sale (EPOS). ITIL.<br/>
+  Customs and Excise. Telecoms. Pay per view (PPV). Credit payments.<br/>
+  Direct debits. Debt collection.<br/> 
+• Customer Relationship Management (CRM): Human Resources (HR).<br/> 
+  Stakeholder liaison.<br/> 
 • Accounting: Billing. Invoicing. Bill of materials. Stock control. Payroll.<br/>
   Workflow automation (MIS).<br/> 
 • Motor manufacturing: Supply Chain Management (SCM). Vehicle tracking.<br/>
@@ -66,14 +68,14 @@ Business Skills:<br/>
   Material Resource Planning (MRP).<br/> 
 • Web design: Web development. Full-stack. Forms processing.<br/>
   Front and Back Office applications.<br/> 
-• Communication: Consultancy. Lecturing. Public speaking. Conference management. Teaching.
-  Tutoring. Mentoring. Software training. Pair programming.<br/>
+• Communication: Consultancy. Lecturing. Public speaking. Conference management.<br/>
+  Teaching. Tutoring. Mentoring. Software training. Pair programming.<br/>
   Technical specification.<br/> 
 • Helpdesk: 1st-line (service desk). 2nd-line (issue management).<br/>
   3rd-line (technical support). Ticketing, prioritising, tracking, and chasing progress.<br/> Hot-desking.<br/> 
 • Testing: Unit, system, UAT, and Production testing. Test scripts.<br/>
   Test-Driven Development (TDD). Behavioural-Driven Development (BDD).<br/>
-• Other: Long term planning (LTP). Extract, Transform, and Load (ETL). Full SDLC.
+• Other: Long term planning (LTP). Extract, Transform, and Load (ETL). Full SDLC.<br/>
   Conversion of legacy systems to newer technologies.<br/>
   Configuration management/Version control. Networking.<br/>
   Reviewing systems and code, and suggesting improvements.
