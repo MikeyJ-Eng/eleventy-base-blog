@@ -15,11 +15,10 @@ In my free time, I’m also looking to collaborate on any interesting projects.
 
 I hate these large blocky texts, and I will update it to make it pretty (as a low priority); however, here's techie me...
 
-Professional Summary:
-
+Professional Summary:  
 Highly effective solution-driven software engineer with a passion for developing innovative modules that meet a company’s organizational needs and highlight its core competencies while promoting the efficiency and effectiveness of organizational success. Well-versed in technology and writing code to create systems that are reliable, accessible, semantic, and user-friendly. Confident communicator, strategic thinker, innovative creator, and valuable team player who easily absorbs new technologies, and has an ability to perform a deep-dive assessment of strategic impact on overall business requirements. Offering a wealth of more than 30 years' expertise at an advanced level, with a successful history of establishing and maintaining positive relationships with stakeholders at all levels.
 
-Academic Summary:
+Academic Summary:<br/>
 • Master’s Degree (MA) in Creative Writing and English Literature – National DongHwa University 
 
 • Bachelor’s Degree (BSc) in Computing & Information Systems – University of Portsmouth 
@@ -32,7 +31,7 @@ Technical Skills:
 • Software engineering: Python. Visual Basic. VBA. Object-Oriented Programming (OOP). C.
 • Web development: Full-stack development. HTML. Cascading Style Sheets (CSS). Javascript.
   API. Active Server Pages (ASP). Bootstrap. Frameworks. Jamstack. Semantic markup and Accessibility. 
-  
+
 • Other: Git. GitHub. Netlify. Algorithms. Data structures. Logical expressions.
   Visual Studio. VS Code. Codepen. Slack. Moodle. Google Meet. Zoom. 
 • Legacy: COBOL. CICS. DB2. ADABAS. NATURAL. RPG. RDBMS. JCL. TSO. OPC. SYNCSORT. 
