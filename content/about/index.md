@@ -23,7 +23,7 @@ Academic Summary:<br/>
   – National DongHwa University<br/>
 • Bachelor’s Degree (BSc) in Computing & Information Systems<br/>
   – University of Portsmouth<br/> 
-• Bootcamp: Web Design and Development, using HTML, CSS, and Javascript  
+• Web Design and Development Bootcamp (HTML, CSS, and Javascript)<br/>
   - The Coder’s Guild<br/> 
 • JavaScript DOM from scratch to pro<br/>
   - Udemy<br/>
