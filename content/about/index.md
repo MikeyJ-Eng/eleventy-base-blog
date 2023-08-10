@@ -24,10 +24,11 @@ Academic Summary:<br/>
 • Bachelor’s Degree (BSc) in Computing & Information Systems<br/>
 – University of Portsmouth<br/><br/>
 • JavaScript DOM from scratch to pro<br/><br/>
-- Udemy<br/><br/>
+  - Udemy<br/><br/>
 • Web Design and Development Bootcamp (HTML, CSS, and Javascript)<br/>
-- The Coder’s Guild<br/> 
-• CS50 Programming with Python - Harvard Online<br/>
+-   The Coder’s Guild<br/> 
+• CS50 Programming with Python<br/>
+    Harvard Online<br/>
 • Agile Practitioner<br/>
 - APMG<br/> 
 • ISEB Foundation Certificate in Software Testing<br/>
