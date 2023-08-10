@@ -1,7 +1,7 @@
 ---
 title: Responsive HTML Table
 description: This is a post based on my TCG Bootcamp experience
-date: 2023-08-07
+date: 2023-08-08
 tags:
   - Bootcamp Challenges
 ---
@@ -10,8 +10,9 @@ tags:
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!--	<link rel="stylesheet" href="tenthpost.css"> -->
-	<link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
 <style>
+	<link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
+
 .h3 {
 	font-family: "Helvetica Neu";
 }
