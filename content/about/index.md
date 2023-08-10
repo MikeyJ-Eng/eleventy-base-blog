@@ -5,9 +5,6 @@ eleventyNavigation:
   order: 3
 ---
 # About Me
-
-Hi, everyone. 
-
 Hi, I’m Mike
 
 👀 I’m interested in Python and JavaScript employment. I'm up-skilling, so I accept that would be at a junior level. I've recently completed a Web Development and Design Bootcamp, and am currently undertaking intensive training in both Python and Cloud formation: AWS and Terraform via freeCodeCamp.
