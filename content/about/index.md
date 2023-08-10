@@ -20,17 +20,18 @@ Highly effective solution-driven software engineer with a passion for developing
 <br/>
 Academic Summary:<br/>
 • Master’s Degree (MA) in Creative Writing and English Literature<br/>
-  – National DongHwa University<br/>
+– National DongHwa University<br/>
 • Bachelor’s Degree (BSc) in Computing & Information Systems<br/>
-  – University of Portsmouth<br/> 
+– University of Portsmouth<br/> 
 • Web Design and Development Bootcamp (HTML, CSS, and Javascript)<br/>
-  - The Coder’s Guild<br/> 
+- The Coder’s Guild<br/> 
 • JavaScript DOM from scratch to pro<br/>
-  - Udemy<br/>
-• CS50 Programming with Python - Harvard Online • Agile Practitioner<br/>
-  - APMG<br/> 
+- Udemy<br/>
+• CS50 Programming with Python - Harvard Online<br/>
+• Agile Practitioner<br/>
+- APMG<br/> 
 • ISEB Foundation Certificate in Software Testing<br/>
-  – Prometric<br/>
+– Prometric<br/>
 <br/>
 Technical Skills:<br/>
 • Software engineering: Python. Visual Basic. VBA.<br/>
