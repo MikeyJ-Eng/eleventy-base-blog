@@ -1,7 +1,7 @@
 ---
 title: Responsive HTML Table
 description: This is a post based on my TCG Bootcamp experience
-date: 2023-08-06
+date: 2023-08-07
 tags:
   - Bootcamp Challenges
 ---
